@@ -1,0 +1,138 @@
+# ############################################################
+# # +------------------------------------------------------+ #
+# # |                    Messages Data                   | #
+# # +------------------------------------------------------+ #
+# ############################################################
+
+Spectators-Menu:
+  Blue-Team: '&9&lModry Team'
+  Red-Team: '&c&lCerveny Team'
+  Team: '&a&lTeam: %team%'
+  Distance: '&a&lDistance: %distance%'
+Spectate-Compass: '&a&lDivacky rezim'
+Invincible: '&c&l&oNyni jsi neviditelny pod dobu 3 sekund!'
+Invincible-CantAttack: '&c&l&oNemuzes dat nikomu poskozeni, dokud jsi neviditelny.'
+No-Longer-Invincible: '&c&l&oJiz nejsi neviditelny.'
+Not-allowed: '&c&l&oNemas prava!'
+NPC:
+  Blue-Team: '&9&lModry Team'
+  Red-Team: '&4&lCerveny Team'
+  Marksman-Kit: '&2&lMarksman Kit'
+  Infiltrator-Kit: '&2&lInfiltrator Kit'
+  Shredder-Kit: '&2&lShredder Kit'
+Game:
+  Red-Won: '&f[&b&lMC Titan &6TW&f] &c&lCerveni &f&lvyhrali hru!'
+  Blue-Won: '&f[&b&lMC Titan &6TW&f] &b&lModri &f&lvyhrali hru!'
+  Starting-Game: '&f[&b&lMC Titan &6TW&f] &6&l> &f&lHra zacina!'
+Scoreboard:
+  Starting-In: '&a&lHra zacne za: %i%...'
+  Waiting-For-Players: '&a&lCekani na ostatni hrace...'
+  Red-Lines: '&cCervena oblast:'
+  Blue-Lines: '&bModra oblast'
+  Kit: '&bKit:'
+  Money: '&bPenize:'
+  Players: '&bHraci:'
+  Team: '&bTeam:'
+  seconds: sekundy
+  Combat-Time: '&a&lCas na bitvu:'
+  Build-Time: '&a&lCas na staveni:'
+  Turf-Wars: '&f&lTurf Wars - MC Titan'
+  Red-Won: '&c&lCerveni &f&lvitezi!'
+  Blue-Won: '&b&lModri &f&lvitezi!'
+  Games-Left: '&b&lHer do konce'
+  Kits:
+    Marksman: Marksman
+    Infiltrator: Infiltrator
+    Shredder: Shredder
+Teams:
+  Blue: Modry
+  Red: Cerveny
+  Already-In-Red: '&c&lJiz jsi v cervenem teamu!'
+  Already-In-Blue: '&c&lJiz jsi v modrem teamu!'
+  Joined-Blue: '&6&l> &f&lPripojil ses do &b&lmodreho teamu&f&l!'
+  Joined-Red: '&6&l> &f&lPripojil ses do &c&lcerveneho teamu&f&l!'
+  Too-Many-Players-In-Blue: '&c&lJiz je mnoho hracu v modrem teamu!'
+  Too-Many-Players-In-Red: '&c&lJiz je mnoho hracu v cervenem teamu!'
+  Already-In-Queue-For-Blue: '&c&lJiz jsi ve fronte na modry team!'
+  Already-In-Queue-For-Red: '&c&lJiz jsi ve fronte na cerveny team!'
+  Joined-Queue-For-Blue: '&6&l> &f&lPripojil ses do fronty na &b&lmodry team&f&l!'
+  Joined-Queue-For-Red: '&6&l> &f&lPripojil ses do fronty na &c&lcerveny team&f&l!'
+  Joined-Blue-Swapped: '&6&l> &f&lPripojil ses do &b&lmodreho teamu&f&l! &7(Prohozen
+    s %swapped%)'
+  Joined-Red-Swapped: '&6&l> &f&lPripojil ses do &c&lcerveneho teamu&f&l! &7(Prohozen
+    s %swapped%)'
+Seconds-Of-Combat-Time: '&a&l%sec% &f&lsekund na &a&lbitvu'
+Seconds-Of-Build-Time: '&a&l%sec% &f&lsekund na &a&lstaveni'
+One-Kill-Equals-One-Line: '&a&l1 zabiti &f&l= &a&l1 cast'
+One-Kill-Equals-Lines: '&a&l1 zabiti &f&l= &a&l%lines% casti'
+Can-Only-Build-Above: '&c&lMuzes stavet pouze na uzemi sveho teamu.'
+Cannot-Build-That-High: '&c&lNemuzes stavet takto vysoko.'
+Not-Enough-Players: '&c&lPripojilo se malo hracu, hra ukoncena.'
+Cannot-Attack-During-Build-Time: '&c&lNemuzes utocit, kdyz je cas na staveni!'
+Cannot-Walk-On-Enemies-Turf: '&c&lNemuzes jit na uzemi nepratel!'
+Kills:
+  You-Killed-With: '&6&l> &f&lZabil jsi hrace %killed% s %cause%.'
+  You-Have-Been-Killed-By-With: '&c&lByl jsi zabit hracem %killer% s %cause%.'
+  You-Have-Been-Killed-By: '&c&lByl jsi zabit %cause%.'
+  Frozen: '&c&lJsi zmrazen po dobu 3 sekund.'
+Motd:
+  GAME: '&c&lProbiha'
+  LOBBY: '&a&lCekani'
+Kits:
+  Kit-Not-Owned: '&c&lNevlastnis tento kit!'
+  Buy-Kit: '&b&lKoupit si tento kit'
+  Cancel: '&c&lZrusit'
+  Infiltrator: '&2&lInfiltrator'
+  Shredder: '&2&lShredder'
+  Infiltrator-Item: '&2&lInfiltrator &f&l2000$'
+  Shredder-Item: '&2&lShredder &f&l5000$'
+  purchased-infiltrator: '&6&l> &b&lInfiltrator &f&lbyl uspesne zakoupen.'
+  purchased-shredder: '&6&l> &b&lShredder &f&lbyl uspesne zakoupen.'
+  Not-Enough-Money: '&6&l> &c&lNemas dostatek penez, aby jsi zakoupil tento kit.'
+  Equip-Marksman:
+  - '&2&l&m============================================='
+  - '&aKit - &f&lMarksman '
+  - '  &7Jedinecny s lukem. Jedna rana zabije kohokoliv.'
+  - ''
+  - '&lVlastnosti'
+  - '  &7Dostanes 1 sip kazde 2 sekundy. Maximalne 2.'
+  - '&2&l&m============================================='
+  Equip-Infiltrator:
+  - '&2&l&m============================================='
+  - '&aKit - &f&lInfiltrator'
+  - '  &7Budes schopny se dostat na uzemi nepratel, ale '
+  - '  &7musis se rychle vratit na sve uzemi, nebo dostanes zpomaleni.'
+  - ''
+  - '&f&lVlastnosti'
+  - '  &7Dostanes 1 sip kazdych 8 sekund. Maximalne 1.'
+  - '&2&l&m============================================='
+  Equip-Shredder:
+  - '&2&l&m============================================='
+  - '&aKit - &f&lShredder'
+  - '  &7Sipy jsou slabsi, ale mohou proletet skrze obranu.'
+  - ''
+  - '&lVlastnosti'
+  - '  &7Dostanes 1 sip kazde 2 sekundy. Maximalne 2.'
+  - ''
+  - '&lBarikada'
+  - '  &eNabij &7tvuj sip na pouziti &abarikady&7.'
+  - '&2&l&m============================================='
+Reward-Message:
+- '&2&l&m============================================='
+- '&aOdmeny'
+- ''
+- '  &f&l{earned}$ &a&lza &f&l{kills} &a&lzabiti'
+- ''
+- '&2&l&m============================================='
+Joined: '&7{player} &6se pripojil do hry.'
+Left: '&7{player} &6opustil hru.'
+Spectator-Menu: Divacke menu
+Server-Restarting: |2-
+
+  &c&lServer se restartuje za &n5 sekund&c&l!
+Kill-Causes:
+  Archery: Archery
+  Attack: Archery
+  Void-Damage: Void Damage
+Balancing-Teams: "\xa76\xa7lVyvazeni teamu..."
+Max-Time-Reached: '&c&lDosazen maximalni cas. Hra ukoncena.'
