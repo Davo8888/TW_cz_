@@ -1,0 +1,171 @@
+prefix: ''
+messages:
+    arena:
+        full: '&cArena je plna!'
+        inGame: '&cArena jiz zacala!'
+        gameCountDown: '&7Minuta do konce'
+        gameCountDownPlural: '&7Minuty do konce'
+        otherJoinArena: '&7{0} se pripojil do hry! &6(&b{1}&6/&b{2}&6)'
+        playerInGame: '&6Jiz jsi ve hre!'
+        setVote: '&6&lTvuj hlas: {0}'
+        voteYourself: '&cNemuzes hlasovat pro sebe!'
+        startingMatch: '&6Hra zacne za &b{0} &6sekund'
+        stopCounting: '&cNeni zde potrebny pocet hracu pro start hry!'
+        notExists: '&cTato arena neexistuje!'
+    create:
+        saving: '&aUkladani... &6(1-2mins) &4(NERESTARTOVAT)'
+        saved: '&aNova arena ulozena.'
+        cancel: '&cZruseno!'        
+    voting:
+        run: '&b&lCas hlasovani!'
+        plotOwner: '&bVlastnik: '
+    win:
+        winner: '&6&l&a{0} &8- &a{1}'
+scoreBoard:
+    name: '&6&lMC Titan Build Battle'
+    plotOwner: '&fVlastnik: &a'
+    players: '&6Hraci: &a'
+    time: '&fCas: &a'
+    topic: '&c&lZadani: &a'
+    footer: 'www.mctitan.cz'
+    winner: '&6&lVitez: &a'
+bbCommand:
+    admin:
+        addWord:
+            emptyWord: '&cNenapsal jsi slovo!'
+            success: '&aSlovo &b{0} &abylo pridano do hry.'
+        rmWord:
+            emptyWord: '&cNenapsal jsi slovo!'
+            success: '&aSlovo &b{0} &abylo odebrano ze hry.'
+            wordNotAdded: '&cSlovo &b{0}&c neni ve hre!'
+    create:
+        name: '&9Napis jmeno areny: '
+        buildSiteLength: '&9Napis velikost stavebni plochy: '
+        gameTime: '&9Napis delku herniho casu (sekundy): '
+        voteTime: '&9Napis delku casu pro hodneceni staveb ostatnich hracu: '
+        maxPlayers: '&9Napis kolik hracu se muze maximalne do areny: '
+        minPlayers: '&9Napi minimalni pocet hracu pro start areny: '
+        schematic: '&9Napis nazev schematicu &a(example.schematic)'
+        processing: '&6Vytvareni areny...'
+        done: '&aDokonceno!'
+        numberError: '&cSpatne cislo!'
+        schematicError: '&9Schematic nenalezen, zkontroluj zda-li se nachazi {0}  ve slozce {1}.'
+        worldExists: '&cTento svet/arena jiz existuje!'
+    forceStart:
+        alreadyStarted: '&cHra jiz zacala!'
+    info: |-
+          &3Napoveda k prikazu /bb
+          &a> info &7- &oUkaze informace.
+          &a> addWord &7- &oPrida slovo do hry.
+          &a> rmWord &7- &oOdebere slovo ze hry.
+          &a> createarena &7- &oVytvori novou arenu.
+          &a> setlobby &7- &oNastavi lobby, kde se hraci budou teleportovat po konci hry (pouze Multi-Arena).
+    noPerms: '&cNemas dostatecna opravneni!'
+    regenArenas:
+        done: '&6Dokonceno!'
+        processing: '&6Regenerace vsech aren...'
+    setLobby: '&eHlavni lobby ulozeno.'
+bungee:
+    saved: '&aBungee world has been saved.'
+    saving: '&aSaving... &6(1-2mins) &4(DON''T RESTART)'
+menu:
+    items:
+        previousPage: '&6Stranka '
+        nextPage: '&6Stranka '
+        lastPage: '&6Posledni stranka'
+        firstPage: '&6Prvni stranka'
+gui:
+    itemName: '&6BuildBattle menu'
+    heads:
+        menuName: '&2Hlavy'
+    particles:
+        menuName: '&6Doplnky'
+        heart: '&cSrdce'
+        note: '&3Noty'
+        emerald: '&2Emerald'
+        fire: '&4Ohen'
+        crit: '&dCrit'
+        magicCrit: '&aMagicky crit'
+        angryVillager: '&cNastvany villager'
+        portal: '&5Portal'
+        redDust: '&4Cerveny prach'
+        explosion: '&eExploze'
+        lava: '&cLava'
+        enchantment: '&dEnchant'
+    admin:
+        item:
+            createArena:
+                name: '&6Vytvoreni areny'
+                lore: '&oVytvoreni nove areny.'
+    inGame:
+        item:
+            particleMenu: '&6Doplnky'
+            changeFloor:
+                canUse: '&aPodlahu nemuzes znovu zmenit!'
+                coolDown: '&cMuzes zmenit podlahu kazdych {0} sekund.'
+                name: '&6Zmenit podlahu'
+                lore: '&oZde dej block, ktery chces pouzit jako podlahu.'
+            clearPlot:
+                canUse: '&aNemuzes svuj prostor vycistit znovu!'
+                coolDown: '&cMuzes vycistit svuj prostor kazdych {0} sekund.'
+                name: '&6Vycistit prostor'
+                lore: '&oKlikni zde pro vycisteni tveho prostoru.'
+            time:
+                menu: '&eNastaveni casu'
+                day: '&6&lDen'
+                dusk: '&1&lSoumrak'
+                night: '&0&lNoc'
+            weather:
+                menu: '&eNastaveni pocasi'
+                sun: '&6&lSlunecno'
+                rain: '&6&lDestivo'
+            heads: '&2Hlavy'
+    mobs:
+        item:
+            AI: '&aPovoli / Zakaze AI'
+            AILore:
+                enabled: '&5AI: &aZapnuto'
+                disabled: '&5AI: &cVypnuto'
+            age: '&aDite / Dospely'
+            ageLore:
+                adult: '&dVek: &cDospely'
+                baby: '&dVek: &bDite'
+            sit: '&cSezeni / Stani'
+            sitLore:
+                false: '&7Sezeni: &cNe'
+                true: '&7Sezeni: &aAno'
+            powered: '&cPower Creeper'
+            poweredLore:
+                false: '&7Powered: &cNO'
+                true: '&7Powered: &aYES'
+            saddle: '&6Give / Take Saddle'
+            saddleLore:
+                false: '&7Saddle: &cNO'
+                true: '&7Saddle: &aYES'
+            villager:
+                open: '&aVillager Options'
+                blacksmith: '&1Blacksmith'
+                butcher: '&cButcher'
+                farmer: '&aFarmer'
+                librarian: '&7Librarian'
+                priest: '&dPriest'
+            remove: '&cRemove mob'
+items:
+    leaveArena: '&cOpustit arenu'
+    voteVeryBad: '&4Nejvetsi hnus'
+    voteBad: '&cHnus'
+    voteOk: '&6Da se to'
+    voteGood: '&2Vypada to dobre'
+    voteVeryGood: '&3Miluju to'
+    voteIncredible: '&5Nejhezci!'
+signs:
+    status:
+        building: '&4PROBIHA'
+        lobby: '&3CEKA'
+        voting: '&5HLASUJE'
+        starting: '&6ZACINA'
+        finished: '&9UKONCENA'
+        regenerating: '&9REGENERUJE'
+title:
+    joinTitle: '&6MC Titan Build Battle'
+    joinSubTitle: '&7Jsi pripraven ukazat to nejlepsi, co v tobe je?'
